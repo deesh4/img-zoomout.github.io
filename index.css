@@ -1,0 +1,35 @@
+img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .zoom-effect-2 img {
+            transition: all .4s linear;
+            -webkit-transition: all .4s linear;
+            -moz-transition: all .4s linear;
+            -o-transition: all .4s linear;
+        }
+        .zoom-effect-2 {
+            overflow: hidden;
+        }
+        .zoom-effect-2 img {
+                transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+        }
+        .zoom-effect-2:hover img {
+                transform: scale(1);
+                -webkit-transform: scale(1);
+        } 
+        h2 {
+            text-align: center;
+        }
+
+        h2:after {
+            display: block;
+            height: 2px;
+            background-color: #e67e22;
+            content: "";
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 30px;
+        } 
